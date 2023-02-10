@@ -1,2 +1,2 @@
 #!/bin/bash
-xhmod ug+x,o+r hello
+xhmod  ug+x,o+r hello
