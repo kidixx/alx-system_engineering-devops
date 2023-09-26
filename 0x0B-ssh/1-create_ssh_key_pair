@@ -5,5 +5,7 @@ private_key_name="school"
 key_bits="4096"
 passphrase="betty"
 
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
 # Generate the RSA key pair with the specified parameters
 openssl genpkey -algorithm RSA -out "$private_key_name.key" -aes256 -pass "pass:$passphrase" -aes256 -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile <(openssl genpkey -algorithm RSA -outform PEM -aes256 -pass "pass:$passphrase" -paramfile /dev/stdin)))))
